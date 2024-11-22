@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkringan Pak Petruk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Angkringan Pak Petruk</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#cart">Keranjang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Menu Angkringan Pak Petruk</h2>
+        <div class="menu-item">
+            <h3>Minuman</h3>
+            <div class="menu-list">
+                <div class="menu-card">
+                    <img src="images/ice-tea.jpg" alt="Es Teh" class="menu-image">
+                    <h4>Es Teh</h4>
+                    <p>Rp 3.000</p>
+                    <button class="add-to-cart" data-name="Es Teh" data-price="3000">Tambah</button>
+                </div>
+                <div class="menu-card">
+                    <img src="images/ice-orange.jpg" alt="Es Jeruk" class="menu-image">
+                    <h4>Es Jeruk</h4>
+                    <p>Rp 3.000</p>
+                    <button class="add-to-cart" data-name="Es Jeruk" data-price="3000">Tambah</button>
+                </div>
+                <div class="menu-card">
+                    <img src="images/ice-coffee.jpg" alt="Es Kopi" class="menu-image">
+                    <h4>Es Kopi</h4>
+                    <p>Rp 4.000</p>
+                    <button class="add-to-cart" data-name="Es Kopi" data-price="4000">Tambah</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <h3>Makanan</h3>
+            <div class="menu-list">
+                <div class="menu-card">
+                    <img src="images/sop-ayam.jpg" alt="Sop Ayam" class="menu-image">
+                    <h4>Sop Ayam</h4>
+                    <p>Rp 7.000</p>
+                    <button class="add-to-cart" data-name="Sop Ayam" data-price="7000">Tambah</button>
+                </div>
+                <div class="menu-card">
+                    <img src="images/bubur-sambal-goreng.jpg" alt="Bubur Sambal Goreng" class="menu-image">
+                    <h4>Bubur Sambal Goreng</h4>
+                    <p>Rp 5.000</p>
+                    <button class="add-to-cart" data-name="Bubur Sambal Goreng" data-price="5000">Tambah</button>
+                </div>
+                <div class="menu-card">
+                    <img src="images/nasi-goreng.jpg" alt="Nasi Goreng" class="menu-image">
+                    <h4>Nasi Goreng</h4>
+                    <p>Rp 10.000</p>
+                    <button class="add-to-cart" data-name="Nasi Goreng" data-price="10000">Tambah</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart-section">
+        <h2>Keranjang Belanja</h2>
+        <ul id="cart-list"></ul>
+        <p>Total: Rp <span id="total-price">0</span></p>
+        <button id="checkout-btn">Pesan Sekarang</button>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Kontak kami di: <a href="mailto:pakpetruk@example.com">pakpetruk@example.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
